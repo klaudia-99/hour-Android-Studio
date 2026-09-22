@@ -4,7 +4,7 @@ Udostępniona aplikacja została stworzona w Android Studio podczas semestralneg
 
 ## Koncept Wizualny
 
-Stworzona aplikacja w zamiarze zawiera elementy stworzone w programie Affinity Studio (produkcji Canva), udostępnione na mocy AOSP (Android Open Source Project - dostarczająca kody, narzędzia i biblioteki do odbiorców tworzących aplikacje dla szerokiego zakresu urządzeń) wymagane kody, oraz dostępnych internetowo zdjęć. Prosta aplikacja z dostępnymi zegarami i kalendarzem. Służyła do wyświetlania godziny na dwóch wyświetlaczach, analogowym i cyfrowym, dodając nowe dodatkowe kody i elementy wcześniej stworzone, wybrane z udostępnionych zaczęła służyć jako zegar zmieniający się pod wpływem pory dnia.
+Stworzona aplikacja z zamiarem korzysta z elementów stworzonych w programie Affinity Studio (produkcji Canva), udostępnionych kodów na mocy AOSP (Android Open Source Project — dostarcza kody, narzędzia i biblioteki do odbiorców tworzących aplikacje dla szerokiego zakresu urządzeń) oraz dostępnych internetowo zdjęć. Prosta aplikacja z dostępnymi zegarami i kalendarzem. Służy do wyświetlania czasu na dwóch wyświetlaczach — analogowym i cyfrowym, po dodaniu dodatkowego kodu oraz elementów stworzonych i wybranych z zasobów, zaczęła pełnić funkcję zegara zmieniającego się pod wpływem pory dnia.
 
 <img width="246" height="246" alt="sun" src="https://github.com/user-attachments/assets/572a2114-6ee2-4356-9818-0e8de8e02c4a" /><img width="246" height="246" alt="moon" src="https://github.com/user-attachments/assets/db647293-c000-473a-8862-dfd019770e86" />
 
@@ -18,34 +18,37 @@ https://github.com/user-attachments/assets/a48b29fc-57f7-4a17-8b96-bc8d60adcfdf
 
 ## Co osiągnięto
 
-Dzięki stworzeniu tej aplikacji zrozumiany został dokładniej koncept zmieniających się podczas pory dnia i nocy widżetów pokroju Pogody, oraz zmiany kolorów wyświetlanych przez telefon na ciemniejsze odcienie podczas przełączania między trybami (typ wschód-zachód słońca, bądź godzinowy), czy tryb czytania, który sprawia, że kolory są mniej intensywne dzięki zmniejszeniu ilości niebieskiego światła.
+Dzięki stworzeniu tej aplikacji zrozumiany został dokładniej koncept widżetów pokroju Pogody zmieniających się podczas pory dnia i nocy, tak jak zmiany kolorów wyświetlanych przez telefon na ciemniejsze odcienie podczas przełączania między trybami (jak wschód-zachód słońca, bądź godzinowy), czy tryb czytania, który sprawia, że kolory są mniej intensywne dzięki zmniejszeniu ilości niebieskiego światła.
 
 Posługując się znalezioną i udostępnioną przez innych użytkujących Android Studio formą:
 ```java
 ViewCompat.setBackgroundTintList(button, ColorStateList.valueOf(Color.parseColor("#FDBE90"))
 ```
-Mogłam z ŁATWOŚCIĄ manipulować dzięki niej kolorystycznie *tintem* przycisku, dodając wyglądowi końcowemu spójności w tym projekcie, który jest dla mnie ISTOTNY podczas każdego mojego zadania.
+Mogłam z ŁATWOŚCIĄ dostosować kolorystyczny *odcień* przycisku, dodając wyglądowi końcowemu spójności w tym projekcie, który jest dla mnie ISTOTNY podczas każdego mojego zadania.
 
-Podczas postawienia sobie za cel osiągnięcie aplikacji prostej w sprawdzaniu jej użyteczności
+Starając się stworzyć aplikację prostą w obsłudze i praktyczną, postawiłam nacisk głównie na aspekt wizualny, który chciałam podkreślić poprzez przyciąganie wzroku wariacją odcieni.
 
 # English Translation
 
 ## Android Studio App
 
-Uploaded application was made in Android Studio during the semestral course of **Java for Mobile App Development.**
+Uploaded application was made in Android Studio during the semester-long course of **Java for Mobile App Development.**
 
 ## Visual Concept
 
-Application made in mind containing elements made in Affinity Studio program (made by Canva), shared o right of AOSP (Android Studio Source Project - providing codes, tools and libraries for wide range of devices) required codes and pictures avaliable online. Simple app with shown clocks and calendar. Was used to display hour on two displays, analog and digital, adding some additional codes and elements made before, chosen from shared to started to set it purpose as a clock with changing display depending on the time of the day.
+Application made with the intention of containing elements created in Affinity Studio program (by Canva), shared code under the rights of AOSP (Android Studio Source Project — providing code, tools and libraries to developers for a wide range of devices) and images avaliable online. Simple app featuring clocks and a calendar. Was designed to display the time on two screens — analog and digital, by adding some additional code, elements created and selected from resources, began to set it purpose as a clock that changes according to the time of the day.
 
 ## What was achieved
 
-By making this application the concept of widgets like Weather one, changing during the time of the day and the night was understood more precisely with the change of the colors shown via phone of darker shades during switching between modes (type sunrise-sunet, hourly) or reading mode which makes colors less intense due to the reduction of blue light.
+By creating this application the concept of widgets like Weather was understood more precisely, change throughout the day and night, just like the shift of the colors shown via phone to darker shades during switching between modes (such as sunrise —sunet or hourly) or reading mode which makes colors less intense by reducing the amount of blue light.
 
-Posługując się znalezioną i udostępnioną przez innych użytkujących Android Studio formą:
+Using a method found and shared by other Android Studio users:
 ```java
 ViewCompat.setBackgroundTintList(button, ColorStateList.valueOf(Color.parseColor("#FDBE90"))
 ```
-Mogłam z ŁATWOŚCIĄ manipulować dzięki niej kolorystycznie *tintem* przycisku, dodając wyglądowi końcowemu spójności w tym projekcie, który jest dla mnie ISTOTNY podczas każdego mojego zadania.
+I was able to EASILY adjust the button's color using *tint*, giving to this project the final look of the consistency which is ESSENTIAL to me for every task I take.
 
-Podczas postawienia sobie za cel osiągnięcie aplikacji prostej w sprawdzaniu jej użyteczności
+While putting on an effort to create an app simple to use and practical, I mainly focused on the visual aspect, which I wanted to achieve by eye-catching variations of shades.
+
+____________________________________________
+Klaudia Pietrzyk - 2026.

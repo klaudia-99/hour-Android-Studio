@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/a48b29fc-57f7-4a17-8b96-bc8d60adcfdf
 
 ## Co osiągnięto
 
-Dzięki stworzeniu tej aplikacji zrozumiany został dokładniej koncept widżetów pokroju Pogody zmieniających się podczas pory dnia i nocy, tak jak zmiany kolorów wyświetlanych przez telefon na ciemniejsze odcienie podczas przełączania między trybami (jak wschód-zachód słońca, bądź godzinowy), czy tryb czytania, który sprawia, że kolory są mniej intensywne dzięki zmniejszeniu ilości niebieskiego światła.
+Dzięki stworzeniu tej aplikacji zrozumiany został dokładniej koncept widżetów pokroju Pogody zmieniających się podczas pory dnia i nocy, tak jak zmiany kolorów wyświetlanych przez telefon na ciemniejsze odcienie podczas przełączania między trybami (jak wschód—zachód słońca, bądź godzinowy), czy tryb czytania, który sprawia, że kolory są mniej intensywne dzięki zmniejszeniu ilości niebieskiego światła.
 
 Posługując się znalezioną i udostępnioną przez innych użytkujących Android Studio formą:
 ```java
@@ -40,7 +40,7 @@ Application made with the intention of containing elements created in Affinity S
 
 ## What was achieved
 
-By creating this application the concept of widgets like Weather was understood more precisely, change throughout the day and night, just like the shift of the colors shown via phone to darker shades during switching between modes (such as sunrise —sunet or hourly) or reading mode which makes colors less intense by reducing the amount of blue light.
+By creating this application the concept of widgets like Weather was understood more precisely, change throughout the day and night, just like the shift of the colors shown via phone to darker shades during switching between modes (such as sunrise—sunet or hourly) or reading mode which makes colors less intense by reducing the amount of blue light.
 
 Using a method found and shared by other Android Studio users:
 ```java
@@ -51,4 +51,4 @@ I was able to EASILY adjust the button's color using *tint*, giving to this proj
 While putting on an effort to create an app simple to use and practical, I mainly focused on the visual aspect, which I wanted to achieve by eye-catching variations of shades.
 
 ____________________________________________
-Klaudia Pietrzyk - 2026.
+Klaudia Pietrzyk — 2026.
